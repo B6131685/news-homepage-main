@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/logo.svg" alt="" srcset="" />
+      <nav>
+        <input type="checkbox" name="menuSideNav" id="menuSideNav" />
+        <label for="menuSideNav" class="openSideNav">
+          <img
+            class="openMenuIcon"
+            for="menuSideNav"
+            src="./assets/images/icon-menu.svg"
+            alt=""
+          />
+        </label>
+        <label for="menuSideNav" class="closeSideNav">
+          <img
+            src="./assets/images/icon-menu-close.svg"
+            for="menuSideNav"
+            alt=""
+          />
+        </label>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <picture>
+        <source
+          media="(min-width: 400px)"
+          srcset="./assets/images/image-web-3-desktop.jpg"
+        />
+        <img
+          src="./assets/images/image-web-3-mobile.jpg"
+          alt="image-web-3-desktop.jpg"
+          lazy
+        />
+      </picture>
+      <div class="containerMain">
+        <div class="title">The Bright Future of Web 3.0?</div>
+        <div class="containerSubText">
+          <div>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </div>
+          <div class="readMore">Read more</div>
+        </div>
+      </div>
+    </main>
+
+    <article>
+      <header>New</header>
+      <div class="blog">
+        <div class="title">Hydrogen VS Electric Cars</div>
+        Will hydrogen-fueled cars ever catch up to EVs?
+      </div>
+
+      <div class="blog">
+        <div class="title">The Downsides of AI Artistry</div>
+        What are the possible adverse effects of on-demand AI image generation?
+      </div>
+
+      <div class="blog">
+        <div class="title">Is VC Funding Drying Up?</div>
+        Private funding by VC firms is down 50% YOY. We take a look at what that
+        means.
+      </div>
+    </article>
+
+    <section>
+      <div class="rankblog">
+        <img
+          src="./assets/images/image-retro-pcs.jpg"
+          alt="image-retro-pcs.jpg"
+        />
+        <div class="info">
+          <div class="number">01</div>
+          <div class="title">Reviving Retro PCs</div>
+          What happens when old PCs are given modern upgrades?
+        </div>
+      </div>
+
+      <div class="rankblog">
+        <img
+          src="./assets/images/image-top-laptops.jpg"
+          alt="image-top-laptops.jpg"
+        />
+        <div class="info">
+          <div class="number">02</div>
+          <div class="title">Top 10 Laptops of 2022</div>
+          Our best picks for various needs and budgets.
+        </div>
+      </div>
+      <div class="rankblog">
+        <img
+          src="./assets/images/image-gaming-growth.jpg"
+          alt="image-gaming-growth.jpg"
+        />
+        <div class="info">
+          <div class="number">03</div>
+          <div class="title">The Growth of Gaming</div>
+          How the pandemic has sparked fresh opportunities.
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
